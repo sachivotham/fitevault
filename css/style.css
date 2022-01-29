@@ -147,14 +147,14 @@ section.features, section.blog-intro, section.blog {
     }
     
     .main-title.main-title-all span {
-    color: #fff;
+    color: #ceff00;
     }
     
     @supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
       .main-title.main-title-all span {
         color: transparent;
-        -webkit-text-stroke: 1px #fff;
-                text-stroke: 1px #fff;
+        -webkit-text-stroke: 1px #ceff00;
+                text-stroke: 1px #ceff00;
         text-shadow: none;
       }
     }
