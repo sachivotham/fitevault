@@ -344,9 +344,6 @@ Hero
   position: relative; }
   .hero .down-arrow a {
     color: #fff; }
-  .hero h1 {
-    color: #fff;
-    margin-bottom: 40px; }
   .hero p.intro {
     color: #fff;
     font-size: 20px;
@@ -2337,3 +2334,13 @@ you can use the generic selector below, but it's slower:
     max-width: 220px;
 }
 
+@media screen and (max-width:480px) {
+  .copyright{
+    
+    float: left;
+  }
+  .footer-nav{
+    float: left;
+    }     
+    
+}
